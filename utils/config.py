@@ -19,4 +19,4 @@ class Config():
     else:
         raise KeyError(username + ": User path not defined, please add path in utils.config.")
 
-    bruxisme_files = sorted(glob(os.path.join(data_path, '*edf')))
+    csv_files = sorted(glob(os.path.join(data_path, '*csv')))

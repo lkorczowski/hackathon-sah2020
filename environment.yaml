@@ -11,7 +11,7 @@ dependencies:
     - jupyter
     - coverage
     - pytest
-    - pyldavis
     # Pip dependencies
     - pip
     - pip:
+        - pyldavis
