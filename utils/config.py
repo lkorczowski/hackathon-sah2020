@@ -13,6 +13,7 @@ class Config():
     username = getpass.getuser()
     known_users = {
         "louis": "/Users/louis/Data/SIOPI/",
+        "morgan" : "/home/morgan/PycharmProjects/cleandata",
         "runner": "/runner/"}
 
     if username in known_users.keys():

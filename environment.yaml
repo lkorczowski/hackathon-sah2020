@@ -1,4 +1,4 @@
-name: cleandata-env
+pipname: cleandata-env
 dependencies:
     - python>=3.7
     - numpy>=1.16.4
@@ -13,8 +13,8 @@ dependencies:
     - pytest
     - gensim
     - nltk
-    - funcy
     # Pip dependencies
     - pip
     - pip:
         - pyldavis
+        - funcy
