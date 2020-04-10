@@ -11,6 +11,9 @@ dependencies:
     - jupyter
     - coverage
     - pytest
+    - gensim
+    - nltk
+    - funcy
     # Pip dependencies
     - pip
     - pip:
