@@ -68,15 +68,21 @@ class Config():
     related_columns = {"etiologie": ["etiologie", "ETIOLOGIE FINALE"],
                        "epworth": ["epworth, epoworth 2"]}
 
-    dict_categories = {1:"",
-                       2:"",
-                        3:"",
-                       4:"",
-                       5:"",
-                       6:"",
-                       7:"",
-                       8:"",
-                       9:"",
-                       10:"",
-                       11:"",
-                       12:""}
+    dict_categories = {1:"traumatisme sonore",
+                       2:"pulsatile, otospongiose, minor",
+                       3:"neurinome",
+                       4:"surdité",
+                       5:"stresse",
+                       6:"BAD: mots coupés",
+                       7:"catarrhe tubaire",
+                       8:"BAD: noms",
+                       9:"BAD: noms",
+                       10:"BAD: noms"
+                       }
+
+    dict_motsclefs = {1:"j'étais à un concert et les c'est survenu brusquement",
+                      2:"J'entends l'acouphène qui suit le rythme de mon coeur",
+                      3:"J'ai des problèmes d'équilibre et des vertiges",
+                      4:"Je suis appareillé et j'ai du mal à entendre",
+                      5:"J'ai eu beaucoup de stresse",
+                      7:"j'ai des problème reccurrent au niveau du nez et les oreilles bouchées"}
