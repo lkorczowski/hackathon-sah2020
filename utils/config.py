@@ -23,8 +23,7 @@ class Config():
         raise KeyError(username + ": User path not defined, please add path in utils.config.")
 
     csv_files = sorted(glob(os.path.join(data_path, '*csv')))
-
-    required_columns = ["% tps ac ressenti", "etiologie", "ETIOLOGIE FINALE"]
+    additional_text = ['../data/lettres_persanes.csv']
 
     # labels columns :
     # -1: to delete ABSOLUTELY (anonymity)
@@ -41,6 +40,8 @@ class Config():
                       -1, 2, 2, 0, 0, 0, 0, 0, 2, 2, 2, 3, 1, 2, -1, -1, 2, 2, 0, 1, 1, 1, 2, 2, 0, 0, 0, 0, 2, 2, 2, 2,
                       2, 4, 2, 2, 2, 2, 2, -1, 2, 2, 0, -1, 1, -1, -1, 0, 3, 0, 2, 0, 4, 0, 2, 4, 4, -1, 3, 2, 2, 2, 2,
                       2, 2, 2, 2, 2, 2, 0]
+
+
     stop_words = ['alors', 'au', 'aucuns', 'aussi', 'autre', 'avant', 'avec', 'avoir', 'bon', 'car', 'ce', 'cela', 'ces', 'ceux',
      'chaque', 'ci', 'comme', 'comment', 'dans', 'des', 'du', 'dedans', 'dehors', 'depuis', 'devrait', 'doit', 'donc',
      'dos', 'début', 'elle', 'elles', 'en', 'encore', 'essai', 'est', 'et',
