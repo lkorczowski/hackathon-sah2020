@@ -1,6 +1,7 @@
 import pandas as pd
 from utils.config import Config
 import numpy as np
+import pandas as pd
 
 
 def fun_clean_categogy1(array, keyw1, index, BOW):
@@ -106,3 +107,13 @@ if __name__ == '__main__':
             elm.pop(elm.index(np.nan))
 
     print(BOW[:200])  # petit extrait de la liste des bag of words
+    BOW2=[]
+    for elm in BOW:
+        stri=""
+        for st in elm:
+            stri = stri + " " + st
+        BOW2.append(stri)
+
+    df2 = pd.DataFrame(BOW2)
+    df2.to_csv('lettres_persanes.csv', sep=';', encoding='ISO-8859-1')
+    print(df2)
