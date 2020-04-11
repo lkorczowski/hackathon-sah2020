@@ -28,3 +28,8 @@ the `conda` command is found.
     $ conda activate cleandata-env
     $ pip install -e .
     ```
+
+4. If you have a problem with a missing package, add it to the `environment.yaml`, then:
+    ```
+    $ conda env update --file environment.yaml
+    ```
