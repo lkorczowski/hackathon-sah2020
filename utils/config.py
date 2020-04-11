@@ -68,4 +68,15 @@ class Config():
     related_columns = {"etiologie": ["etiologie", "ETIOLOGIE FINALE"],
                        "epworth": ["epworth, epoworth 2"]}
 
-    dict_categories = {1}
+    dict_categories = {1:"",
+                       2:"",
+                        3:"",
+                       4:"",
+                       5:"",
+                       6:"",
+                       7:"",
+                       8:"",
+                       9:"",
+                       10:"",
+                       11:"",
+                       12:""}
