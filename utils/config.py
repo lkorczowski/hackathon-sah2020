@@ -61,7 +61,7 @@ class Config():
      'vont', 'votre', 'vous', 'vu', 'ça',
      'étaient', 'état', 'étions', 'été', 'être']
     stop_words += ['qui','oui','vos','nos','merci','plus','docteur','cher','toujours','actuellement','salutations','avait','remercie']
-    stopwords=['suis','avez','moi','bonjour','loche','vincent','dewaleyne','lettre']
+    stop_words+=['suis','avez','moi','bonjour','loche','vincent','dewaleyne','lettre','cordialement']
 
 
     related_columns = {"etiologie": ["etiologie", "ETIOLOGIE FINALE"],
