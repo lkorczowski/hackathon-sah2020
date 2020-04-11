@@ -14,6 +14,7 @@ class Config():
     known_users = {
         "louis": "/Users/louis/Data/SIOPI/",
         "morgan" : "/home/morgan/PycharmProjects/cleandata",
+        "Zeta" : "C:/Users/Zeta/Documents/start_at_home",
         "runner": "/runner/"}
 
     if username in known_users.keys():
