@@ -60,6 +60,8 @@ class Config():
      'tout', 'trop', 'très', 'tu', 'voient',
      'vont', 'votre', 'vous', 'vu', 'ça',
      'étaient', 'état', 'étions', 'été', 'être']
+    stop_words += ['qui','oui','vos','nos','merci','plus','docteur','cher','toujours','actuellement','salutations','avait','remercie']
+
 
     related_columns = {"etiologie": ["etiologie", "ETIOLOGIE FINALE"],
                        "epworth": ["epworth, epoworth 2"]}
