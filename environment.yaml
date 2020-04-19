@@ -1,4 +1,4 @@
-name: cleandata-env
+name: sah-env
 dependencies:
     - python>=3.7
     - numpy>=1.16.4
