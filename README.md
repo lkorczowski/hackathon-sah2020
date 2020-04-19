@@ -1,5 +1,9 @@
 # cleandata
-Clean structured data (e.g. csv, txt) by applying a serie of transformations
+Repo created for the Natural Language Processing Backend for the website https://euro-acouphenes.fr/ developed during
+ the hackathon Start-at-Home 10-12 April 2020 @Saclay-Start-up.
+
+I will no longer be developed as the project as moved to a new repository
+https://github.com/lkorczowski/Tinnitus-NLP
 
 ## Installation
 The following steps must be performed on a Anaconda prompt console, or 
